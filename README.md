@@ -22,3 +22,8 @@ https://drive.google.com/file/d/1pPswBNWX0hDUwrC8v5qvdKE6UrkcusLd/view?usp=shari
 python detect.py --model detectron2 --path test/test-image-1.jpg
 (or for video: python detect.py --model detectron2 --path test/bdd100k-demo-vid-1.mp4)
 ```
+### Results
+<img src="test/test-image-1.jpg" width="425"/> <img src="test/test-image-1_result.jpg" width="425"/> 
+<img src="test/test-image-2.jpg" width="425"/> <img src="test/test-image-2_result.jpg" width="425"/> 
+<img src="test/test-image-3.jpg" width="425"/> <img src="test/test-image-3_result.jpg" width="425"/> 
+
