@@ -35,7 +35,5 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--path', type=str, default=ROOT / 'data/images', help='file/dir/URL/glob, 0 for webcam')
     parser.add_argument('--model', type=str, default= 'yolov5', choices=['yolov5', 'detectron2'], help='pick detector model')
-    parser.add_argument('--save-output', dest='save_output', action='store_true')
-    parser.set_defaults(save_output=True)
     opt = parser.parse_args()
     main(opt)
